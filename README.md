@@ -1,8 +1,3 @@
-
-Aqui está um README.md estiloso e informativo para o seu projeto de CRUD de vinhos em PHP e MySQL no XAMPP:
-
-markdown
-Copy code
 # 🍷 CRUD de Vinhos - PHP & MySQL
 
 Bem-vindo ao projeto **CRUD de Vinhos**, uma aplicação simples desenvolvida em **PHP** e **MySQL**, com o objetivo de gerenciar uma coleção de vinhos. O projeto foi projetado para rodar em um servidor local utilizando o **XAMPP**.
