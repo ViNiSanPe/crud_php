@@ -1,0 +1,5 @@
+{
+    "watch": ["./"],
+    "ext": "php,html,css,js",
+    "exec": "C:/xampp/apache/bin/httpd.exe -k restart"
+}  

@@ -1,0 +1,28 @@
+# Ignorar configurações locais e do sistema operacional
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar arquivos e diretórios gerados pelo PHP e IDEs
+vendor/                 # Diretório de dependências (se usar Composer)
+*.php~                 # Arquivos temporários do PHP
+.idea/                 # Configurações do PhpStorm
+.vscode/               # Configurações do Visual Studio Code
+
+# Ignorar diretórios específicos de cache ou temporários
+node_modules/          # Caso use algum build com Node.js
+cache/                 # Cache gerado por alguma ferramenta ou script
+/tmp/                  # Diretório de arquivos temporários
+
+# Ignorar Docker
+docker-compose.override.yml
+*.env                  # Arquivo de ambiente Docker, se aplicável
+
+# Ignorar banco de dados e backups
+db_dump/               # Diretório de dumps de banco de dados
+
+# Ignorar arquivos estáticos gerados dinamicamente
+public/images/uploads/ # Diretório onde são enviados uploads
